@@ -1,96 +1,90 @@
-🏏 CricMetrics: T20 World Cup Intelligence & Player Impact Analysis
+# 🏏 CricMetrics: End-to-End Cricket Analytics Dashboard
 
+[![Power BI](https://img.shields.io/badge/Power_BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![DAX](https://img.shields.io/badge/DAX-Advanced_Analytics-217346?style=for-the-badge)](https://learn.microsoft.com/en-us/dax/)
+[![Power Query](https://img.shields.io/badge/Power_Query-M_Language-blue?style=for-the-badge)](https://learn.microsoft.com/en-us/powerquery-m/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
+## 🏛️ Project Overview
 
+CricMetrics is an end-to-end cricket analytics dashboard that combines multiple CSV datasets to analyze batting, bowling, and match-level performance. By transforming raw match statistics into an interactive Power BI experience, this project delivers deep, data-driven insights into player form, team performance, and match outcomes — built for fans, analysts, and franchises alike.
 
-🏛️ Project Overview
+---
 
-CricMetrics is a high-performance sports analytics solution designed to decode the complexities of T20 World Cup cricket. Moving beyond traditional surface-level statistics, this project focuses on "Player Impact"—identifying the hidden contributors who drive match outcomes. By transforming nested, high-volume JSON datasets into a unified relational model, CricMetrics provides a data-backed view of batting power, death-over bowling efficiency, and venue-based performance variance.
+## 📸 Dashboard Preview
 
+![CricMetrics Dashboard](Screenshot%202026-02-03%20211835.png)
 
+---
 
+## 🔍 Key Analytical Insights
 
-🔍 Key Analytical Insights
+| Metric | Analytical Value | Strategic Outcome |
+|---|---|---|
+| **Batting Performance** | Player-wise strike rate & average trends | Identifies consistent top-order performers |
+| **Bowling Analysis** | Economy rate & wicket-taking patterns | Highlights match-winning bowlers |
+| **Match Insights** | Venue-wise and head-to-head breakdowns | Surfaces conditions that favor specific teams |
 
-Metric
-Analytical Value
-Business/Sports Outcome
-Player Impact Index
-Advanced DAX-based scoring.
-Identified undervalued players with 20% higher win-contribution.
-Data Optimization
-JSON to Relational transformation.
-50% improvement in data retrieval & report speed.
-Venue Analytics
-Boundary dimension correlation.
-Discovered 10% variance in economy rates across stadiums.
+### 💡 High-Impact Findings
 
+- **Multi-Dataset Integration** — Combined multiple raw CSV sources (batting, bowling, match data) into a unified, relational data model for cross-metric analysis.
+- **Performance Benchmarking** — Enabled side-by-side player and team comparisons using custom DAX measures.
+- **Interactive Exploration** — Built dynamic filters and slicers, allowing users to drill down by player, team, venue, and match.
 
+---
 
+## 🛠️ Technical Architecture
 
-High-Impact Findings
+### Data Pipeline & Methodology
 
-• The "Moneyball" Effect: Successfully identified "Undervalued Performers" whose impact on winning matches exceeded that of marquee players with higher base salaries.
+1. **Data Ingestion** — Imported and merged multiple CSV datasets covering batting, bowling, and match records.
+2. **Data Cleaning** — Standardized and transformed raw data using Power Query.
+3. **Modeling** — Built relationships between datasets to support cross-filtering across visuals.
+4. **DAX Calculations** — Developed custom measures for strike rate, economy, averages, and performance indices.
+5. **Visualization** — Designed an interactive dashboard with player cards, trend charts, and comparison views.
 
-• Death-Over Dynamics: Pinpointed the most efficient death-over bowlers by cross-referencing economy rates with high-pressure match situations.
+### Tech Stack
 
-• Strategic Venue Insights: Visualized how stadium dimensions directly influence bowling strategies, providing a tactical blueprint for team selection.
+| Component | Tool Used |
+|---|---|
+| **BI Tool** | Power BI Desktop |
+| **Data Transformation** | Power Query |
+| **Analytics Engine** | DAX |
+| **Data Source** | Multiple CSV datasets |
 
+---
 
+## 📂 Repository Structure
 
+```
+CricMetrics/
+├── Cricket Analysis.pbix              # Core Analytics Dashboard
+├── Screenshot 2026-02-03 211835.png   # Dashboard preview image
+└── README.md                          # Executive documentation
+```
 
-🛠️ Technical Architecture
+---
 
-Data Pipeline & Methodology
+## 🚀 How to View
 
-1. Data Engineering: Parsed and integrated complex, nested JSON datasets into a clean, structured format using Power Query.
+1. Download the `.pbix` file from this repository.
+2. Open it in **Power BI Desktop** to interact with the filters, player comparisons, and trend visuals.
 
-2. Data Modeling: Implemented a Star Schema to handle multi-dimensional relationships between players, matches, and deliveries.
+---
 
-3. KPI Development: Engineered the "Player Impact Index" using Advanced DAX to quantify contribution beyond simple runs and wickets.
+## 📄 License
 
-4. Interactive Visualization: Developed a multi-layered dashboard featuring powerplay analysis, head-to-head comparisons, and drill-through performance reports.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Tech Stack
+---
 
-• BI Tool: Power BI Desktop
+## 🤝 Connect & Collaborate
 
-• Data Transformation: Power Query (M Language)
+**Shubham Kumar**
+*Computer Science (AIML) Undergraduate*
 
-• Analytics Engine: Advanced DAX
+- 💼 LinkedIn: [shubham-kumar-565040253](https://www.linkedin.com/in/shubham-kumar-565040253/)
+- 🐙 GitHub: [@shubham333k](https://github.com/shubham333k)
+- 📧 Email: shubhamjhanjhot333k@gmail.com
 
-• Data Source: Tournament JSON & CSV Records
-
-
-
-
-📂 Repository Structure
-
-Plain Text
-
-
-├── Cricket Analysis.pbix      # Core Analytics Dashboard
-├── data/                      # T20 World Cup JSON & CSV Datasets
-└── README.md                  # Executive Documentation
-
-
-
-
-
-
-🤝 Connect & Collaborate
-
-Shubham Kumar
-Computer Science (AIML) Undergraduate
-
-• LinkedIn: https://www.linkedin.com/in/shubham-kumar-565040253/
-
-• GitHub: https://github.com/shubham333k
-
-• Email: shubhamjhanjhot333k@gmail.com
-
-
-
-
-This project was developed as part of a Data Science Portfolio focused on Sports Tech & Advanced Analytics.
-
+*This project was developed as part of a Data Science Portfolio focused on Sports Analytics.*
